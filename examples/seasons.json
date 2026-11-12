@@ -1,0 +1,10 @@
+{
+  "title": "A Walk Through the Seasons",
+  "scenes": [
+    {"title": "A New Beginning", "subtitle": "Morning light spills across a quiet garden.", "duration": 4},
+    {"title": "In Full Bloom", "subtitle": "Color returns, and the world wakes up.", "duration": 4},
+    {"title": "Golden Hour", "subtitle": "Leaves drift gently through the autumn air.", "duration": 4},
+    {"title": "A Quiet Pause", "subtitle": "Snow softens the edges of the familiar path.", "duration": 4},
+    {"title": "The Cycle Continues", "subtitle": "Every ending holds the promise of a beginning.", "duration": 4}
+  ]
+}

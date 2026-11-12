@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "antigravity-video-pipeline"
+version = "0.1.0"
+description = "A local-first prompt-to-MP4 video pipeline powered by FFmpeg."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Antigravity Video Pipeline contributors" }]
+dependencies = ["Pillow>=10.0"]
+
+[project.scripts]
+ag-video = "antigravity_video_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
